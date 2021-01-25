@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Detail</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/paymentprocess" method="POST">
+        <p>Credit Card No<input type="number" name="CreditCardNumber" required/></p>
+        <p>Card Holder <input type="text" name="CardHolder" required/></p>
+        <p>Expiration date <input type="date" name ="ExpirationDate" required/> </p>
+        <p>Security Code <input type="password" name="SecurityCode"/></p>
+        <p>Amount <input type="number" name="Amount" required/> </p>
+        <input type="submit" value="submit"/>
+    </form>
+</body>
+</html>
